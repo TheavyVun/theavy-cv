@@ -7,9 +7,13 @@ body {
 }
 /* menu */
 nav {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     background: #4A4A4A;
+    box-shadow: 0px 9px 26px -6px rgba(6,5,5,0.57);
+
 }
 #check, #check1, label {
     display: none;
@@ -132,8 +136,7 @@ h1, h2 {
 .info h2, .interest h2, .dream h2, .academic h2, .experience h2, .skill h2, .projects h2, .map h2 {
     margin: 0;
     padding: 10px;
-    clip-path: polygon(83% 0, 62% 9%, 100% 29%, 61% 49%, 83% 62%, 61% 81%, 96% 100%, 0 100%, 0 40%, 0 0);
-    background: #DE9A7D;
+    color: #DE9A7D;
 }
 .info-img {
     width: 50%;
