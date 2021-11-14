@@ -618,6 +618,10 @@ nav ul li a:hover{
     .box {
         width: 46%;
     }
+    .name {
+        flex-wrap: wrap;
+        gap: 0;
+    }
 
 }
 
@@ -671,4 +675,15 @@ nav ul li a:hover{
         gap: 10px;
         padding: 10px 0 0 0;
     }
+    
+}
+@media (max-width: 370px) {
+    .container-left {
+        height: 5vh;
+        padding-top: 30vh;
+    }
+    .pic img {
+        width: 70%;
+    }
+  
 }
