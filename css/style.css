@@ -135,7 +135,6 @@ h1, h2 {
 }
 .info h2, .interest h2, .dream h2, .academic h2, .experience h2, .skill h2, .projects h2, .map h2 {
     margin: 0;
-    padding: 10px;
     color: #DE9A7D;
 }
 .info-img {
@@ -159,9 +158,7 @@ h1, h2 {
     margin: auto;
     box-sizing: border-box;
 }
-.interest h2, .dream h2 {
-    width: 50%;
-}
+
 .hobbies {
     display: flex;
 }
@@ -645,10 +642,6 @@ nav ul li a:hover{
     }
     .info-img .link {
        width: 80%;
-    }
-    .interest h2, .dream h2 {
-       width: 100%;
-       box-sizing: border-box;
     }
     .hobbies {
        flex-wrap: wrap;
