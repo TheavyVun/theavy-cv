@@ -507,6 +507,9 @@ nav ul li a:hover{
     .contact .row {
         width: 90%;
     }
+    .forms .btn {
+        width: 50%;
+    }
    
     
 }
@@ -591,6 +594,7 @@ nav ul li a:hover{
         width: 100%;
     }
 
+
 }
 @media (max-width: 680px) {
 
@@ -622,6 +626,7 @@ nav ul li a:hover{
         flex-wrap: wrap;
         gap: 0;
     }
+
 
 }
 
@@ -674,6 +679,9 @@ nav ul li a:hover{
     .academic .row, .experience .row, .projects .row {
         gap: 10px;
         padding: 10px 0 0 0;
+    }
+    .forms .btn {
+        width: 100%;
     }
     
 }
